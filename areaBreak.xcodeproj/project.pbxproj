@@ -20,7 +20,6 @@
 		EA5B41511F41E4FD0069E287 /* ofxCvImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5B40781F41E4FD0069E287 /* ofxCvImage.cpp */; };
 		EA5B41521F41E4FD0069E287 /* ofxCvShortImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA5B407A1F41E4FD0069E287 /* ofxCvShortImage.cpp */; };
 		EA5B41531F41E4FD0069E287 /* opencv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5B41491F41E4FD0069E287 /* opencv.a */; };
-		EAF272B71F432E4300F5B4D8 /* ofxPostGlitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAF272B51F432E4300F5B4D8 /* ofxPostGlitch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,8 +242,6 @@
 		EA5B41351F41E4FD0069E287 /* videostab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = videostab.hpp; sourceTree = "<group>"; };
 		EA5B41491F41E4FD0069E287 /* opencv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = opencv.a; sourceTree = "<group>"; };
 		EA5B414B1F41E4FD0069E287 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EAF272B51F432E4300F5B4D8 /* ofxPostGlitch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxPostGlitch.cpp; sourceTree = "<group>"; };
-		EAF272B61F432E4300F5B4D8 /* ofxPostGlitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPostGlitch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,7 +268,6 @@
 			isa = PBXGroup;
 			children = (
 				EA5B406A1F41E4FD0069E287 /* ofxOpenCv */,
-				EAF272B31F432E4300F5B4D8 /* ofxPostGlitch */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -747,24 +743,6 @@
 			path = license;
 			sourceTree = "<group>";
 		};
-		EAF272B31F432E4300F5B4D8 /* ofxPostGlitch */ = {
-			isa = PBXGroup;
-			children = (
-				EAF272B41F432E4300F5B4D8 /* src */,
-			);
-			name = ofxPostGlitch;
-			sourceTree = "<group>";
-		};
-		EAF272B41F432E4300F5B4D8 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				EAF272B51F432E4300F5B4D8 /* ofxPostGlitch.cpp */,
-				EAF272B61F432E4300F5B4D8 /* ofxPostGlitch.h */,
-			);
-			name = src;
-			path = ../../../addons/ofxPostGlitch/src;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -860,7 +838,6 @@
 				EA5B40621F41AA7C0069E287 /* graphics.cpp in Sources */,
 				EA5B414F1F41E4FD0069E287 /* ofxCvGrayscaleImage.cpp in Sources */,
 				EA5B40691F41E4970069E287 /* vision.cpp in Sources */,
-				EAF272B71F432E4300F5B4D8 /* ofxPostGlitch.cpp in Sources */,
 				EA5B414E1F41E4FD0069E287 /* ofxCvFloatImage.cpp in Sources */,
 				EA5B414D1F41E4FD0069E287 /* ofxCvContourFinder.cpp in Sources */,
 				EA5B41521F41E4FD0069E287 /* ofxCvShortImage.cpp in Sources */,
